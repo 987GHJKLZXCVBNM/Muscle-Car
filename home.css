@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'ReformaGroteskBoldC';
+}
+
+.header {
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 78.8%, #141414 100%), url(img/Rectangle\ 64.png);
+}
+.div ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+.ul li{
+    border-radius: 20px;
+}
+.li1 {
+    width: 44px;
+    height: 29px;
+}
+.p1{
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.h1 {
+    position: absolute;
+        width: 483px;
+        height: 188px;
+        left: 719px;
+        top: 237px;
+        font-family: 'ReformaGroteskBoldC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 150px;
+        line-height: 125%;
+        text-align: center;
+        color: rgba(219, 49, 56, 1);
+}
+.img_div1 {
+        position: absolute;
+            width: 10px;
+            height: 10px;
+            left: 887px;
+            top: 438px;
+
+}
+.img_div2 {
+    position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 931.07px;
+        top: 438px;
+        
+}
+.img_div3 {
+    position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 975.14px;
+        top: 438px;
+        
+}
+.img_div4 {
+    position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 1019.21px;
+        top: 438px;
+        
+}
