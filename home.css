@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    font-family: "Reforma", "Grotesk", "MediumC";
+    color: rgba(20, 20, 20, 0.8);
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+.menu {
+  flex-grow: 1;
+  }
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2px 0 0;
+    margin-left: 297px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .menu a {
+    color:ghostwhite;
+    text-decoration: none;
+  }
+  .menu a,
+  .menu .active {
+    display:block;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+  }
+  .menu .active {
+    color: rgba(219,49,56,1);
+    background-color: rgba(219,49,56,1);
+    border-radius: 0px;
+  }
+  .h1 {
+    position: absolute;
+width: 483px;
+height: 188px;
+left: 715px;
+top: 237px;
+
+font-family: 'ReformaGroteskBoldC';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 125%;
+
+/* identical to box height, or 188px */
+text-align: center;
+
+/* accent */
+color: #DB3138;
+}
+.img1{
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    left: 1568px;
+    top: 42px;
+    
+    /* accent */
+    background: #DB3138;
+}
+.h2{
+    position: absolute;
+width: 437px;
+height: 96px;
+left: 742px;
+top: 486px;
+
+font-family: 'ReformaGroteskMediumC';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 120%;
+
+/* or 48px */
+text-align: center;
+
+/* white */
+color: #FFFFFF;
+}
+.button{
+    position: absolute;
+    width: 145px;
+    height: 61px;
+    left: 881px;
+    top: 622px;
+    margin-top: 80px;
+    /* accent */
+    background: #DB3138;
+}
+.bg img{
+    background: url(img/Table.png) no-repeat right bottom;
+    position: relative; /* Относительное позиционирование */
+    top: 797px;
+    width: 200%;
+    margin-left: -899px;
+}
+.b img{
+    position: absolute;
+
+}
+
+
+
